@@ -2,7 +2,7 @@ from os import path
 from pydub import AudioSegment 
   
 # assign files 
-audio_string = "data/Chill-HoliznaCC0%20-%20Movement"
+audio_string = "data/unit_testing/test"
 input_file = audio_string+".mp3"
 output_file = audio_string+".wav"
   

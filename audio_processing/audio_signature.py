@@ -77,11 +77,11 @@ def create_hashes(constellation_map, song_id=None):
 
 # Read the input WAV files
 # Fs is the sampling frequency of the file
-test1 = "data/Chill-HoliznaCC0%20-%20Movement.wav"
-test2 = "data/unit_testing/test.wav"
-Fs, song = read(test1)
+# test1 = "data/Chill-HoliznaCC0%20-%20Movement.wav"
+# test2 = "data/unit_testing/test.wav"
+# Fs, song = read(test1)
 
 
-test_signature = create_constellation(song, Fs)
+# test_signature = create_constellation(song, Fs)
 # # Transform [(x, y), ...] into ([x1, x2...], [y1, y2...]) for plotting using zip
 # plt.scatter(*zip(*test_signature))

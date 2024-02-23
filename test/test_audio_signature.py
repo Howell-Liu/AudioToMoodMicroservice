@@ -5,7 +5,7 @@ from scipy.io.wavfile import read
 TEST_WAV_FILE = "data/unit_testing/test.wav"
 
 def test_main_returns_text():
-    
+    pass
 
 def test_wav_file_to_audio_signature():
     Fs, song = read(TEST_WAV_FILE)
